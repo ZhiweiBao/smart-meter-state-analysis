@@ -11,10 +11,17 @@
 - MATLAB Runtime R2018a(9.4). Url: https://www.mathworks.com/products/compiler/matlab-runtime.html 
 - Database: Oracle
 
-## Accomplishments
+## Related accomplishments
 
-- Software patent: Anomaly Detection and Quality Control System for the Verification Assembly Line of Smart Meters (CN 2019SR0423927)
-- Undergraduate thesis: Software Design Oriented to Analysis of Verification Data of Smart Meter - Zhiwei Bao 
+- Publications: 
+  - An on-line anomaly identifying method for calibration devices in an automatic verification system for electricity smart meters. (Q1, Coauthor) Url: https://www.sciencedirect.com/science/article/pii/S0263224121005790
+  - Online Anomaly Detection Method for Meter Positions in Automatic Verification Assembly Line of Smart Meter. (PKU, Corresponding author) Url: https://kns.cnki.net/kcms/detail/detail.aspx?doi=10.19753/j.issn1001-1390.2020.14.018
+- Patent:
+  - Detection method and system for automatically detecting online abnormity of assembly line meter position. (CN 202010276791.6) Url: https://patentscope.wipo.int/search/en/detail.jsf?docPN=CN111398886
+- Software patent: 
+  - Anomaly Detection and Quality Control System for the Verification Assembly Line of Smart Meters. (CN 2019SR0423927)
+- Undergraduate thesis: 
+  - Software Design Oriented to Analysis of Verification Data of Smart Meter - Huazhong University of Science and Technology 
 
 ## Application
 
