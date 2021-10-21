@@ -1,0 +1,93 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'Ui_database_setting.ui'
+#
+# Created by: PyQt5 UI code generator 5.10.1
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_database_setting(object):
+    def setupUi(self, database_setting):
+        database_setting.setObjectName("database_setting")
+        database_setting.resize(480, 138)
+        database_setting.setSizeGripEnabled(True)
+        self.gridLayout = QtWidgets.QGridLayout(database_setting)
+        self.gridLayout.setObjectName("gridLayout")
+        self.formLayout = QtWidgets.QFormLayout()
+        self.formLayout.setObjectName("formLayout")
+        self.label_serverName = QtWidgets.QLabel(database_setting)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.label_serverName.sizePolicy().hasHeightForWidth())
+        self.label_serverName.setSizePolicy(sizePolicy)
+        self.label_serverName.setObjectName("label_serverName")
+        self.formLayout.setWidget(0, QtWidgets.QFormLayout.LabelRole, self.label_serverName)
+        self.lineEdit_serverName = QtWidgets.QLineEdit(database_setting)
+        self.lineEdit_serverName.setObjectName("lineEdit_serverName")
+        self.formLayout.setWidget(0, QtWidgets.QFormLayout.FieldRole, self.lineEdit_serverName)
+        self.label_userName = QtWidgets.QLabel(database_setting)
+        self.label_userName.setObjectName("label_userName")
+        self.formLayout.setWidget(1, QtWidgets.QFormLayout.LabelRole, self.label_userName)
+        self.lineEdit_userName = QtWidgets.QLineEdit(database_setting)
+        self.lineEdit_userName.setObjectName("lineEdit_userName")
+        self.formLayout.setWidget(1, QtWidgets.QFormLayout.FieldRole, self.lineEdit_userName)
+        self.label_password = QtWidgets.QLabel(database_setting)
+        self.label_password.setObjectName("label_password")
+        self.formLayout.setWidget(2, QtWidgets.QFormLayout.LabelRole, self.label_password)
+        self.lineEdit_password = QtWidgets.QLineEdit(database_setting)
+        self.lineEdit_password.setEchoMode(QtWidgets.QLineEdit.Password)
+        self.lineEdit_password.setObjectName("lineEdit_password")
+        self.formLayout.setWidget(2, QtWidgets.QFormLayout.FieldRole, self.lineEdit_password)
+        self.pushButton_connect = QtWidgets.QPushButton(database_setting)
+        self.pushButton_connect.setObjectName("pushButton_connect")
+        self.formLayout.setWidget(3, QtWidgets.QFormLayout.SpanningRole, self.pushButton_connect)
+        self.gridLayout.addLayout(self.formLayout, 0, 0, 1, 1)
+        self.formLayout_2 = QtWidgets.QFormLayout()
+        self.formLayout_2.setObjectName("formLayout_2")
+        self.label_serverName_2 = QtWidgets.QLabel(database_setting)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.label_serverName_2.sizePolicy().hasHeightForWidth())
+        self.label_serverName_2.setSizePolicy(sizePolicy)
+        self.label_serverName_2.setObjectName("label_serverName_2")
+        self.formLayout_2.setWidget(0, QtWidgets.QFormLayout.LabelRole, self.label_serverName_2)
+        self.lineEdit_serverName_2 = QtWidgets.QLineEdit(database_setting)
+        self.lineEdit_serverName_2.setObjectName("lineEdit_serverName_2")
+        self.formLayout_2.setWidget(0, QtWidgets.QFormLayout.FieldRole, self.lineEdit_serverName_2)
+        self.label_userName_2 = QtWidgets.QLabel(database_setting)
+        self.label_userName_2.setObjectName("label_userName_2")
+        self.formLayout_2.setWidget(1, QtWidgets.QFormLayout.LabelRole, self.label_userName_2)
+        self.lineEdit_userName_2 = QtWidgets.QLineEdit(database_setting)
+        self.lineEdit_userName_2.setObjectName("lineEdit_userName_2")
+        self.formLayout_2.setWidget(1, QtWidgets.QFormLayout.FieldRole, self.lineEdit_userName_2)
+        self.label_password_2 = QtWidgets.QLabel(database_setting)
+        self.label_password_2.setObjectName("label_password_2")
+        self.formLayout_2.setWidget(2, QtWidgets.QFormLayout.LabelRole, self.label_password_2)
+        self.lineEdit_password_2 = QtWidgets.QLineEdit(database_setting)
+        self.lineEdit_password_2.setEchoMode(QtWidgets.QLineEdit.Password)
+        self.lineEdit_password_2.setObjectName("lineEdit_password_2")
+        self.formLayout_2.setWidget(2, QtWidgets.QFormLayout.FieldRole, self.lineEdit_password_2)
+        self.pushButton_connect_2 = QtWidgets.QPushButton(database_setting)
+        self.pushButton_connect_2.setObjectName("pushButton_connect_2")
+        self.formLayout_2.setWidget(3, QtWidgets.QFormLayout.SpanningRole, self.pushButton_connect_2)
+        self.gridLayout.addLayout(self.formLayout_2, 0, 1, 1, 1)
+
+        self.retranslateUi(database_setting)
+        QtCore.QMetaObject.connectSlotsByName(database_setting)
+
+    def retranslateUi(self, database_setting):
+        _translate = QtCore.QCoreApplication.translate
+        database_setting.setWindowTitle(_translate("database_setting", "数据库配置"))
+        self.label_serverName.setText(_translate("database_setting", "服务器名称"))
+        self.label_userName.setText(_translate("database_setting", "用户名"))
+        self.label_password.setText(_translate("database_setting", "密码"))
+        self.pushButton_connect.setText(_translate("database_setting", "数据库连接"))
+        self.label_serverName_2.setText(_translate("database_setting", "服务器名称"))
+        self.label_userName_2.setText(_translate("database_setting", "用户名"))
+        self.label_password_2.setText(_translate("database_setting", "密码"))
+        self.pushButton_connect_2.setText(_translate("database_setting", "数据库连接"))
+
